@@ -13,6 +13,11 @@
 		938FD4022CFFD7C60004A10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938FD4002CFFD7C60004A10C /* Main.storyboard */; };
 		938FD4042CFFD7C70004A10C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938FD4032CFFD7C70004A10C /* Assets.xcassets */; };
 		938FD4072CFFD7C70004A10C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938FD4052CFFD7C70004A10C /* LaunchScreen.storyboard */; };
+		938FD40F2CFFD7DA0004A10C /* HightlightTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FD40E2CFFD7DA0004A10C /* HightlightTextView.swift */; };
+		938FD4112CFFD7EE0004A10C /* HightlightTextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FD4102CFFD7EE0004A10C /* HightlightTextViewDelegate.swift */; };
+		938FD4132CFFD80E0004A10C /* HighlighterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FD4122CFFD80E0004A10C /* HighlighterTextView.swift */; };
+		938FD4152CFFD92F0004A10C /* LoadLocalJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938FD4142CFFD92F0004A10C /* LoadLocalJSON.swift */; };
+		938FD4172CFFD9F90004A10C /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 938FD4162CFFD9F90004A10C /* sample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		938FD4032CFFD7C70004A10C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		938FD4062CFFD7C70004A10C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		938FD4082CFFD7C70004A10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938FD40E2CFFD7DA0004A10C /* HightlightTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HightlightTextView.swift; sourceTree = "<group>"; };
+		938FD4102CFFD7EE0004A10C /* HightlightTextViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HightlightTextViewDelegate.swift; sourceTree = "<group>"; };
+		938FD4122CFFD80E0004A10C /* HighlighterTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlighterTextView.swift; sourceTree = "<group>"; };
+		938FD4142CFFD92F0004A10C /* LoadLocalJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadLocalJSON.swift; sourceTree = "<group>"; };
+		938FD4162CFFD9F90004A10C /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				938FD4032CFFD7C70004A10C /* Assets.xcassets */,
 				938FD4052CFFD7C70004A10C /* LaunchScreen.storyboard */,
 				938FD4082CFFD7C70004A10C /* Info.plist */,
+				938FD40E2CFFD7DA0004A10C /* HightlightTextView.swift */,
+				938FD4102CFFD7EE0004A10C /* HightlightTextViewDelegate.swift */,
+				938FD4122CFFD80E0004A10C /* HighlighterTextView.swift */,
+				938FD4142CFFD92F0004A10C /* LoadLocalJSON.swift */,
+				938FD4162CFFD9F90004A10C /* sample.json */,
 			);
 			path = HighlighterTextView;
 			sourceTree = "<group>";
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				938FD4072CFFD7C70004A10C /* LaunchScreen.storyboard in Resources */,
+				938FD4172CFFD9F90004A10C /* sample.json in Resources */,
 				938FD4042CFFD7C70004A10C /* Assets.xcassets in Resources */,
 				938FD4022CFFD7C60004A10C /* Main.storyboard in Resources */,
 			);
@@ -139,8 +155,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				938FD3FF2CFFD7C60004A10C /* ViewController.swift in Sources */,
+				938FD4132CFFD80E0004A10C /* HighlighterTextView.swift in Sources */,
 				938FD3FB2CFFD7C60004A10C /* AppDelegate.swift in Sources */,
+				938FD4152CFFD92F0004A10C /* LoadLocalJSON.swift in Sources */,
 				938FD3FD2CFFD7C60004A10C /* SceneDelegate.swift in Sources */,
+				938FD4112CFFD7EE0004A10C /* HightlightTextViewDelegate.swift in Sources */,
+				938FD40F2CFFD7DA0004A10C /* HightlightTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
